@@ -4,7 +4,7 @@ import TodoListItem from "./TodoListItem";
 import NewTodoForm from "./NewTodoForm";
 import "./TodoList.css";
 
-const TodoList = ({ todos = [] }) => {
+const TodoList = ({ todos = [{ text: "Read a book" }] }) => {
   return (
     <div className="list-wrapper">
       <NewTodoForm />
